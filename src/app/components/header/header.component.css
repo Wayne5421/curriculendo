@@ -9,6 +9,7 @@
     padding: 20px;
     z-index: 1000; 
     position: fixed;
+    margin-bottom: 50px;
 }
 
 .sections{
