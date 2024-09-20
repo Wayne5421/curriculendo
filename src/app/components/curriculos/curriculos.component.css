@@ -1,0 +1,108 @@
+:root {
+    --primary--color: #3498db; 
+    --secondary--color: #2ecc71;
+}
+
+.main-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first-container {
+    background-color: white; 
+    border-radius: 10px;
+    padding: 20px;
+    color: var(--primary-color);
+    width: 500px;
+    height: fit-content;
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-container h1, p {
+    background-color: white;
+    
+}
+
+.first-container h1{
+    font-size: 55px;
+    margin-bottom: 40px;
+}
+
+.first-container p{
+    font-size: 30px;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.second-container h1{
+    font-size: 55px;
+    margin-bottom: 40px;
+}
+
+.second-container p{
+    font-size: 25px;
+}
+
+.first-block {
+    background-color: var(--primary--color); 
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    color: var(--secondary-color);
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-block h1, p{
+    background-color: white;
+
+}
+
+.second-block {
+    background-color: var(--primary--color); 
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--primary-color);
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    
+}
+
+.second-block h1, p{
+    background-color: white;
+}
+
+@media (max-width:1100px) {
+
+    .main-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-container{
+        margin-bottom: 30px;
+    }
+  
+  }

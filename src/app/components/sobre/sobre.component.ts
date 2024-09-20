@@ -9,10 +9,10 @@ export class SobreComponent {
 
 
   integrantes = [
-    { nome: 'Geovana', imagem: 'background-icons/icon.png' },
-    { nome: 'Luiza', imagem: 'background-icons/icon.png' },
-    { nome: 'Maria', imagem: 'background-icons/icon.png' },
-    { nome: 'Nicole', imagem: 'background-icons/icon.png' }
+    { nome: 'Geovana', imagem: 'integrantes/geo.jpeg' },
+    { nome: 'Luiza', imagem: 'integrantes/luiza.jpeg' },
+    { nome: 'Maria', imagem: 'integrantes/maria.jpeg' },
+    { nome: 'Nicole', imagem: 'integrantes/nina.jpeg' }
   ];
 
 }
