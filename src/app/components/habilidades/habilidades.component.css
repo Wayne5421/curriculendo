@@ -15,8 +15,8 @@
   display: flex;
   align-items: start;
   justify-content: center;
-  height: 100%;
-  padding: 40px;
+  height: fit-content;
+  padding: 20px;
   background-color: var(--primary-color);
   border-radius: 30px;
   flex-wrap: wrap;
@@ -26,21 +26,25 @@
   }
 
 
+
+
+
   .left{
     width: 50%;
     padding: 60px 80px;
     min-height:max-content;
     background-color: transparent;
     h1{
-      font-size: 33px;
+      font-size: 55px;
     }
     p{
 
       margin-top: 40px;
-      font-size: 18px;
+      font-size: 25px;
     }
     h3{
       margin-top: 40px;
+      font-size: 25px;
       font-weight: 800;
     }
 
@@ -52,11 +56,12 @@
 
     padding:60px 80px;
     h1{
-      font-size: 18px;
+      font-size: 55px;
       font-weight: 800;
+      margin-bottom: 30px;
     }
     li{
-      font-size: 18px;
+      font-size: 25px;
     }
   }
 }

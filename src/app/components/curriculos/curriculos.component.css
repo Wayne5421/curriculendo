@@ -15,7 +15,8 @@
     border-radius: 10px;
     padding: 20px;
     color: var(--primary-color);
-    width: 500px;
+    width: 100%; 
+    max-width: 500px; 
     height: fit-content;
     height: 500px;
 
@@ -108,6 +109,7 @@
 
     .first-container{
         margin-bottom: 30px;
+        width: 90%; 
+        max-width: 500px; 
     }
-  
-  }
+}

@@ -11,6 +11,7 @@ import { HabilidadesComponent } from './components/habilidades/habilidades.compo
 import { CursosComponent } from './components/cursos/cursos.component';
 import { ObjetivosComponent } from './components/objetivos/objetivos.component';
 import { EscolaridadeComponent } from './components/escolaridade/escolaridade.component';
+import { ResumoComponent } from './components/resumo/resumo.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { EscolaridadeComponent } from './components/escolaridade/escolaridade.co
     HabilidadesComponent,
     CursosComponent,
     ObjetivosComponent,
-    EscolaridadeComponent
+    EscolaridadeComponent,
+    ResumoComponent
   ],
   imports: [
     BrowserModule,
