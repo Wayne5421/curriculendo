@@ -1,99 +1,76 @@
+* {
+  box-sizing: border-box; /* Define o box-sizing para todos os elementos */
+}
+
 .main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  width: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  overflow-x: hidden; /* Evita a barra de rolagem horizontal */
+  margin-top: 120px;
+}
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 70vh;
-    width: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
-  
-  }
+.content img {
+  max-width: 80%; /* Garante que a imagem não exceda a largura */
+  max-height: 350px;
+  height: auto; /* Mantém a proporção */
+}
 
- 
-  
-  .content {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    
-  }
-  
-  .content img {
-    max-height: 350px;
-  }
-  
+.content h1 {
+  font-size: 10vw; /* Tamanho responsivo */
+  color: var(--primary-color);
+}
+
+.text p {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.first {
+  color: var(--primary-color);
+}
+
+.second {
+  color: var(--secondary-color);
+}
+
+@media (max-width: 600px) {
   .content h1 {
-    font-size: 120px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: var(--primary-color);
-  }
-  
-  .text p {
-    font-size: 25px;
-    font-weight: bold;
- 
-    text-align: center;
-
-  }
-  
-  .first {
-    color: var(--primary-color);
+      font-size: 70px;
+      
   }
 
-
-  
-  .second {
-    color: var(--secondary-color);
-  }
-  
-  @media (max-width:600px) {
-    .main-container {
-  
-  
-      .content {
-        h1{
-          font-size: 70px;
-        }
-        img{
-          width: 200px;
-        }
-      }
-      .text{
-        padding: 20px;
-      }
-  
+  .content img {
+      width: 200px;
   }
 
-
-
-
+  .text {
+      padding: 20px;
+  }
 }
 
-@media (min-width:1100px) {
-
+@media (max-width: 1100px) {
   .main-container {
-
-    margin-top: 120px;
-
-  
+      margin-top: 120px;
   }
-    
-  
 }
- 
-@media (min-width:1100px) {
 
+@media (max-width: 430px) {
   .main-container {
-
-    margin-top: 120px;
-    
-  
+      margin-top: 10px;
   }
-    
-  
 }
- 
+
