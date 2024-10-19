@@ -4,11 +4,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
+    min-height: 70vh;
     width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
   
   }
+
+ 
   
   .content {
     display: flex;
@@ -16,6 +19,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    
   }
   
   .content img {
@@ -31,11 +35,16 @@
   .text p {
     font-size: 25px;
     font-weight: bold;
+ 
+    text-align: center;
+
   }
   
   .first {
     color: var(--primary-color);
   }
+
+
   
   .second {
     color: var(--secondary-color);
@@ -58,4 +67,33 @@
       }
   
   }
+
+
+
+
+}
+
+@media (min-width:1100px) {
+
+  .main-container {
+
+    margin-top: 120px;
+
+  
   }
+    
+  
+}
+ 
+@media (min-width:1100px) {
+
+  .main-container {
+
+    margin-top: 120px;
+    
+  
+  }
+    
+  
+}
+ 

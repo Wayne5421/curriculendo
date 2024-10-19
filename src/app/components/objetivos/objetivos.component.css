@@ -10,10 +10,11 @@
     color: var(--primary-color);
     font-weight: 500;
     text-align: center;
+    background-color: #F4F2E9;
 }
 
 .main-container h1{
-    font-size: 55px;
+    font-size: 35px;
 
 }
 
@@ -33,13 +34,18 @@
     justify-content: center;
     flex-direction: column;
     align-items: center; 
+    border-radius: 10px;
+    margin-bottom: 20px; 
 }
 
 .first-container p, .second-container p {
     max-width: 500px; 
     margin: 0 auto;
     text-align: center; 
-    padding-left: 20px; 
+    padding: 10px; 
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
 }
 
 .secondary-color {
@@ -63,5 +69,6 @@
 
     .first-container p, .second-container p {
         padding-left: 20px;
+        
     }
 }
