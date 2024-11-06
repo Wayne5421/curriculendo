@@ -12,6 +12,7 @@ import { CursosComponent } from './components/cursos/cursos.component';
 import { ObjetivosComponent } from './components/objetivos/objetivos.component';
 import { EscolaridadeComponent } from './components/escolaridade/escolaridade.component';
 import { ResumoComponent } from './components/resumo/resumo.component';
+import { ModeloCurriculoComponent } from './components/modelo-curriculo/modelo-curriculo.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ResumoComponent } from './components/resumo/resumo.component';
     CursosComponent,
     ObjetivosComponent,
     EscolaridadeComponent,
-    ResumoComponent
+    ResumoComponent,
+    ModeloCurriculoComponent
   ],
   imports: [
     BrowserModule,
